@@ -1,0 +1,28 @@
+[
+    {
+        "id":1,
+        "title":"Sakız",
+        "price":0.5,
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQouYn92hfetdJENIXn1gapsqZxC4yLFuc5kw&usqp=CAU"
+
+        
+    },
+    {
+        "id":2,
+        "title":"Kola",
+        "price":10,
+        "image":"https://torosdonertantuni.com/wp-content/uploads/2021/07/icecekler_0011_kutu-kola.jpg"
+    },
+    {
+        "id":3,
+        "title":"Çikolata",
+        "price":4,
+        "image":"https://reimg-carrefour.mncdn.com/mnresize/600/600/productimage/30095762/30095762_0_MC/8796963274802_1588615699780.jpg"
+    },
+    {
+        "id":4,
+        "title":"Cips",
+        "price":12,
+        "image":"https://www.groseri.com.tr/Media/urun-resimleri/ae5336bb-9afb-4ebc-8784-b4a0c071f9db.jpg"
+    }
+]
