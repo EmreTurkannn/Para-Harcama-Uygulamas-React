@@ -1,8 +1,9 @@
 import React from 'react'
 
 
-const BasketList=({item,total})=>{
+const BasketList=({item,total,setBasket})=>{
     console.log(item);
+
     return(
         <div className='last-list'>
             <div className="img-list">
@@ -11,7 +12,7 @@ const BasketList=({item,total})=>{
             <div className='item-info'>
             {item.title}-   
             {item.amount }  x  { item.price} TL   
-    
+           
             </div>
         </div>
         

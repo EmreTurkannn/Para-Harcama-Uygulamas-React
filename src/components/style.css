@@ -153,8 +153,37 @@
     /* background-color: rgb(138, 192, 241); */
     width: 86%;
     margin: 0 auto;
-    border-radius: 10px;
-    border: 1px solid darkcyan;
+    /* border-radius: 10px; */
+    /* border: 1px solid darkcyan;   */
     /* display: flex; */
         
+}
+
+.total{
+    font-size:25px;
+    margin-right: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:darkcyan;
+}
+
+.btn-sil button{
+    border:none;
+    background-color: darkcyan;
+    border-radius:10px;
+    padding: 15px 25px;
+    color:#fff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 10px;
+}
+.basket-header{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:darkcyan;
+    letter-spacing: 5px;
+    margin: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: rgb(205, 209, 215);
+    border-radius: 5px;
 }

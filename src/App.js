@@ -23,9 +23,7 @@ function App() {
 
   }, [basket])
 
-  const resetBasket = () => {
-    setBasket([]);
-  }
+
 
 
   return (
@@ -36,8 +34,8 @@ function App() {
           <Product key={idx} product={item} setBasket={setBasket} basket={basket} total={total} money={money} />
         )}
       </div>
-      <Basket basket={basket} total={total}/>
-      <button onClick={resetBasket}>Hepsini sil</button>
+      <Basket basket={basket} setBasket={setBasket} total={total}/>
+      
     </div>
   );
 }
