@@ -17,7 +17,9 @@ const Product=({product,basket,setBasket,total,money})=>{
                 id:product.id,
                 amount:1,
                 price:product.price,
-                title:product.title
+                title:product.title,
+                img:product.image
+               
             }])
         }
         console.log(basket);    
@@ -46,7 +48,7 @@ const Product=({product,basket,setBasket,total,money})=>{
             </div>
             <div className='action'>
             <button disabled={!basketItem} onClick={removeBasket}>Sat</button>
-            <span className='amount'>{basketItem&&basketItem.amount||0} TL</span>
+            <span className='amount'>{basketItem&&basketItem.amount||0} </span>
             <button disabled={money<product.price+total} onClick={addBasket}>Satın Al</button>
             </div>
             </div>

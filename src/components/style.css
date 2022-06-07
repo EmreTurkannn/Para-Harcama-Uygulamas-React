@@ -81,7 +81,7 @@
 .last-list{
     width: 86%;
     margin: 0 auto;
-    background-color: darkcyan;
+    background-color: white;
     }
 .item-info{
     display: flex;
@@ -114,3 +114,47 @@
         padding: 8px 10px;
     }
   }
+.last-list{
+    width: 40%;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* border: 1px solid darkcyan; */
+    border-radius: 10px;
+    margin: 5px auto;
+    /* padding: 10px; */
+    background-color: darkcyan;
+
+    }
+  .img-list{
+      width: 20%;
+     
+  }
+  .img-list img{
+      width: 100%;
+      margin-top:3px;
+      border-radius: 15px;
+  }
+
+  .item-info{
+      color:#fff;
+      font-weight: bold;
+      font-size: 18px;
+  }
+  
+.basket-out{
+    display: flex;
+    align-items: center;
+    /* margin:50px;     */
+    
+    
+}
+.main-cont{
+    /* background-color: rgb(138, 192, 241); */
+    width: 86%;
+    margin: 0 auto;
+    border-radius: 10px;
+    border: 1px solid darkcyan;
+    /* display: flex; */
+        
+}

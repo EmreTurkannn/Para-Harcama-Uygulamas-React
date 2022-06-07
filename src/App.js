@@ -14,6 +14,7 @@ function App() {
   const [basket, setBasket] = useState([]);
   const [total, setTotal] = useState();
 
+  
   useEffect(() => {
     setTotal(basket.reduce((arr, item) => {
       return arr + item.amount * (products.find(pro => pro.id === item.id).price);
